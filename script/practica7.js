@@ -1,10 +1,10 @@
 const palindromo = (palabra="")=>{
-     if(!palabra) return console.warn("No ingresaste una palabra");
-     palabra = palabra.toLowerCase();
-     let alReves = palabra.split("").reverse().join("");
-     return (palabra === alReves)
-         ? console.info(`Si es palindromo, Palabra original ${palabra}, Palabra al revez ${alReves}`)
-         : console.info(`No es palindromo, Palabra original ${palabra}, Palabra al revez ${alReves}`);
+    if(!palabra) return console.warn("No ingresaste una palabra");
+    palabra = palabra.toLowerCase();
+    let alReves = palabra.split("").reverse().join("");
+    return (palabra === alReves)
+        ? console.info(`Si es palindromo, Palabra original ${palabra}, Palabra al revez ${alReves}`)
+        : console.info(`No es palindromo, Palabra original ${palabra}, Palabra al revez ${alReves}`);
 
 }
 
