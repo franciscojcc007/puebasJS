@@ -5,3 +5,14 @@ const cadenaInvertida = (cadena="")=>{
 
 }
 cadenaInvertida("Hola mundo")
+
+
+//escribe areves
+let letra = "pato";
+let palabras = "";
+
+for(let i =letra.length-1; i>=0; i--)
+{
+     palabras += letra[i];
+}
+console.log(palabras);

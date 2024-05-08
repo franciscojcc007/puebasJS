@@ -15,3 +15,4 @@ const factorial =(numero = undefined) =>{
   return console.info(`El factorial de ${numero} es ${fatorial}`)
 }
 factorial(4)
+
