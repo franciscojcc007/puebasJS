@@ -17,4 +17,3 @@ const repetirTexto = (texto = "", veces = undefined)=> {
      for (let i = 1; i <= veces; i++) console.info(`${texto}, ${i}`);
 }
      repetirTexto("Hola Mundo", 5)
-    

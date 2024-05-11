@@ -1,2 +1,2 @@
 export const pi = Math.PI;
-console.info(pi)
+console.info(pi);

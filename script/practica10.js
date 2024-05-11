@@ -7,6 +7,6 @@ const capicua =(numero=0)=>{
 
   return(numero === numeroInverso)
     ? console.info(`El numero ${numero} es capicua`)
-    : console.info(`El numero ${numero} no es capicua el reves ${numeroInverso}`) 
+    : console.info(`El numero ${numero} no es capicua el reves ${numeroInverso}`); 
 }
 capicua(2002);

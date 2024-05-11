@@ -8,4 +8,4 @@ const palindromo = (palabra="")=>{
 
 }
 
-palindromo("ana")
+palindromo("ana");
