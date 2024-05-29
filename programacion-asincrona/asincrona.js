@@ -91,3 +91,8 @@ cuadradoPromise(1)
   console.log("Fin promise")
 })
 .catch(err => console.error(err));
+
+/************funcioones asicronas*********/
+async function fucionasincronaDeclarada(){
+  
+}
