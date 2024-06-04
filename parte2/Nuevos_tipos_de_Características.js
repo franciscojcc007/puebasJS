@@ -76,9 +76,15 @@
 //   console.log(`clave: ${key} valor: ${value}`);
 // }
 
-/**************uso del map ⬆️*************/
+/************uso del map ⬆️*************/
 
+const objUsuarios ={}
+console.log(objUsuarios);
 
-/***********  **********/  
+const Usuarios = ["jose", "ramon","miguel"];
+Usuarios.forEach((usuario,index)=>objUsuarios[`id_${index}`] = usuario);
+console.log(objUsuarios);
+
+/*********** propiedades dinamicas⬆️**********/  
 
 
