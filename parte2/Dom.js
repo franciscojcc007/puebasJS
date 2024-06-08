@@ -23,7 +23,7 @@
 // saludar(texto);
 
 
-/*Elementos del Documento⬆️*/
+/********Elementos del Documento⬆️********/
 
 // console.log(document.getElementsByTagName("li"));
 // console.log(document.getElementsByClassName("card"));
@@ -40,4 +40,4 @@
 // console.log(document.querySelector("#menu li"));
 // console.log(document.querySelectorAll("#menu li"));
 
-/*Nodos, Elementos y Selectores⬆️*/
+/******Nodos, Elementos y Selectores⬆️******/
