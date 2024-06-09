@@ -2,3 +2,8 @@ img{
   height: 300px;
   width: 300px;
 }
+
+.link-dom{
+  background-color:orange;
+  color:#000;
+}
