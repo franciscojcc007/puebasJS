@@ -173,3 +173,91 @@
 /******DOM Traversing - Recorriendo el DOM⬆️******/
 
 
+// Crear y añadir la primera figura
+// const $figure = document.createElement("figure"),
+//   $img = document.createElement("img"),
+//   $figcaption = document.createElement("figcaption"),
+//   $figcaptionText = document.createTextNode("Animals"),
+//   $cards = document.querySelector(".cards"),
+//   $figure2 = document.createElement("figure");
+
+// $img.setAttribute("src", "https://th.bing.com/th/id/OIP.5xXuXS4AKN4hSAorRHLPbwHaEo?rs=1&pid=ImgDetMain");
+// $img.setAttribute("alt", "Animals");
+// $figure.classList.add("card");
+
+// $figcaption.appendChild($figcaptionText);
+// $figure.appendChild($img);
+// $figure.appendChild($figcaption);
+// $cards.appendChild($figure);
+
+
+// $figure2.innerHTML = `
+// <img src="https://th.bing.com/th/id/OIP.Qhjvk8aoXzXt8QImJ2HCRgHaE7?rs=1&pid=ImgDetMain" alt="People">
+// <figcaption>People</figcaption>
+// `;
+// $figure2.classList.add("card");
+// $cards.appendChild($figure2);
+
+
+// const estaciones = ["Primavera", "Verano", "Otoño", "Invierno"],
+//   $ul = document.createElement("ul");
+
+// const $h3Estaciones = document.createElement("h3");
+// $h3Estaciones.textContent = "Estaciones del Año";
+// document.body.appendChild($h3Estaciones);
+
+// document.body.appendChild($ul);
+
+// estaciones.forEach((el) => {
+//   const $li = document.createElement("li");
+//   $li.textContent = el;
+//   $ul.appendChild($li);
+// });
+
+
+// const continentes = ["África", "América", "Asia", "Europa", "Oceanía"],
+//   $ul2 = document.createElement("ul");
+
+// const $h3Continentes = document.createElement("h3");
+// $h3Continentes.textContent = "Continentes del Mundo";
+// document.body.appendChild($h3Continentes);
+
+// document.body.appendChild($ul2);
+// // $ul2.innerHTML = "";
+// continentes.forEach((el) => {
+//   const $li = document.createElement("li");
+//   $li.textContent = el;
+//   $ul2.appendChild($li);
+// });
+
+// const meses = [
+//     "Enero",
+//     "Febrero",
+//     "Marzo",
+//     "Abril",
+//     "Mayo",
+//     "Junio",
+//     "Julio",
+//     "Agosto",
+//     "Septiembre",
+//     "Octubre",
+//     "Noviembre",
+//     "Diciembre",
+//   ],
+//   $ul3 = document.createElement("ul"),
+//   $fragment = document.createDocumentFragment();
+
+// meses.forEach((el) => {
+//   const $li = document.createElement("li");
+//   $li.textContent = el;
+//   $fragment.appendChild($li);
+// });
+
+// const $h3Meses = document.createElement("h3");
+// $h3Meses.textContent = "Meses del Año";
+// document.body.appendChild($h3Meses);
+
+// $ul3.appendChild($fragment);
+// document.body.appendChild($ul3);
+
+/******Creando Elementos y Fragmentos⬆️******/
