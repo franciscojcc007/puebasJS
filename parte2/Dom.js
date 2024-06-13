@@ -344,10 +344,33 @@ Posiciones:
 //$cards.before($newCard);
 //$cards.after($newCard);
 /******Modificando Elementos (Cool Style)⬆️******/
-function holaMundo(){
-  alert("hola mundo");
+function holaMundo() {
+  alert("Hola Mundo");
   console.log(Event);
 }
-const $evento = document.getElementById("evento");
-$evento.onclick = holaMundo;
+
+function saludar(nombre = "Desconocid@") {
+  alert(`Hola ${nombre}`);
+  console.log(Event);
+}
+
+const $eventoSemantico = document.getElementById("evento-semantico"),
+  $eventoMultiple = document.getElementById("evento-multiple"),
+  $eventoRemover = document.getElementById("evento-remover");
+
+$eventoSemantico.onclick = holaMundo;
+$eventoSemantico.onclick = function (e) {
+  alert("Hola Mundo Manejador de Eventos Semántico");
+  console.log(e);
+  console.log(Event);
+};
+
+$eventoMultiple.addEventListener("click", holaMundo);
+$eventoMultiple.addEventListener("click", (e) => {
+  alert("Hola Mundo Manejador de Eventos Múltiple");
+  console.log(e);
+  console.log(e.type);
+  console.log(e.target);
+  console.log(Event);
+});
 /******Eventos⬆️******/
