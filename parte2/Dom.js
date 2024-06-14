@@ -373,4 +373,17 @@ $eventoMultiple.addEventListener("click", (e) => {
   console.log(e.target);
   console.log(Event);
 });
+$eventoMultiple.addEventListener("click", () => {
+  saludar();
+  saludar("Jon");
+});
+
+const removerDobleClick = (e) => {
+  alert(`Removiendo el evento de tipo ${e.type}`);
+  console.log(e);
+  $eventoRemover.removeEventListener("dblclick", removerDobleClick);
+  $eventoRemover.disabled = true;
+};
+
+$eventoRemover.addEventListener("dblclick", removerDobleClick);
 /******Eventos⬆️******/
