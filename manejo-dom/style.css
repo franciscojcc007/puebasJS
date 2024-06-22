@@ -6,6 +6,7 @@ img{
 :root{
   --primary-color: #fced78;
   --background-color: #000;
+  --segudary-coclor:#010d92;
 }
 .link-dom{
   background-color:orange;
@@ -31,4 +32,15 @@ img{
 }
 .sepia{
   filter: sepia(100%);
+}
+
+/******* ingredientes *****/
+
+ol{
+  font-size: 1.2rem;
+}
+
+li::marker{
+  color: var(--segudary-coclor);
+  font-size: 1.5rem;
 }
