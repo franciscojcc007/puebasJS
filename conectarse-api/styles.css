@@ -25,6 +25,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 40px;
+	padding: 0 20px
 }
 
 .contenedor .pelicula {
@@ -38,8 +39,10 @@ body {
 
 .contenedor .pelicula .poster {
 	width: 100%;
+	height: 300px; 
 	margin-bottom: 10px;
 	border-radius: 15px;
+	object-fit: cover;
 }
 
 .paginacion {
@@ -73,4 +76,41 @@ body {
 
 .paginacion button:hover {
 	background: var(--secondary-color);
+}
+/* Media Queries para tamaños de pantalla específicos */
+@media (max-width: 768px) {
+	.contenedor {
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 20px;
+			padding: 0 10px;
+	}
+
+	.paginacion {
+			padding: 5px;
+	}
+
+	.paginacion button {
+			width: 140px;
+			font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.contenedor {
+			grid-template-columns: 1fr;
+			gap: 10px;
+	}
+
+	.paginacion {
+			gap: 10px;
+			padding: 5px;
+	}
+
+	.paginacion button {
+			width: 120px;
+			font-size: 12px;
+	}
+	.poster{
+		margin-top: 15px;
+	}
 }
