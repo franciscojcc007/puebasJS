@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Dosis', sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
 }
 :root{
   --background-body-primary-color:rgba(62, 161, 219, 1) 11.2%;
