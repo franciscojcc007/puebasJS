@@ -2,27 +2,31 @@ body{
     margin: 0;
     padding: 0;
     background: #4a4a4a;
-    height: 100%;
-    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
 .container{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
 }
 
 #myProgress{
     background: #f0e746;
-    width: 60%;
+    width: 100%;
     min-height: 50px;
-    box-shadow: 0px 10px 30px rgba(255,255,255,0.1);
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
+    
 }
 
 #myBar{
     background: rgb(7, 1, 167);
-    width: 8%;
+    width: 0%;
     color: #fefeff;
     font-size: 20px;
     line-height: 50px;
@@ -33,10 +37,6 @@ body{
 
 button{
     font-size: 20px;
-    position: absolute;
-    top: 60%;
-    left: 24.5%;
-    transform: translate(-50%,-50%);
     cursor: pointer;
     padding: 12px 20px;
     border: none;
@@ -44,11 +44,17 @@ button{
     color: #242424;
     transition: 0.5s;
     background-color: #c1fdbdd7;
-    margin:25px 0 0 26px;
-    
+    margin-top: 20px;
+
 }
 
 button:hover{
     background: #067900;
     color: #fcfcfc;
+}
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .contenedor {
+        width: 90%;
+    }
 }
