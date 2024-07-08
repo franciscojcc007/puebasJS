@@ -5,10 +5,11 @@
   font-size: 16px;
   box-sizing: border-box;
 }
-:root{
-  --background-body-primary-color:rgb(4, 29, 151) 11.2%;
-  --background-body-secondary-color:rgb(133, 106, 11) 100.2%;
-  --background-color:#282828a9;
+
+:root {
+  --background-body-primary-color: rgb(4, 29, 151) 11.2%;
+  --background-body-secondary-color: rgb(133, 106, 11) 100.2%;
+  --background-color: #282828a9;
   --color-primary: rgba(62, 161, 219, 1);
   --color-secondary: rgba(255, 255, 255, 1);
 
@@ -32,7 +33,7 @@ form {
 }
 
 .mainCard {
-  width: 25vw;
+  width: 35vw;
   border-radius: 25px;
   background-color: var(--background-color);
   padding: 25px;
@@ -44,7 +45,8 @@ form {
   align-content: center;
   margin-bottom: 15px;
   height: 40px;
-  width:  40px;
+  width: 40px;
+  margin-left: 15px;
 }
 
 .inputForm {
@@ -52,6 +54,7 @@ form {
   outline: none;
   width: 65%;
   border: none;
+  margin-left: 15px;
 }
 
 .inputForm::placeholder {
@@ -65,6 +68,7 @@ form {
   color: var(--color-secondary);
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 15px;
 }
 
 .cardsList {
@@ -119,6 +123,7 @@ form {
   top: -100px;
   left: 0;
 }
+
 .deleteSpace {
   position: relative;
   width: 30%;
@@ -128,21 +133,35 @@ form {
   font-size: 48px;
 }
 
-  @media (max-width: 1280px) {
+@media (max-width: 1280px) {
 
-    form{
-      flex-wrap: wrap ;
-    }
-    .mainCard{
-      width: 50vw;
-    }
-    .inputForm {
-      border: 1px solid #eee;
-      outline: none;
-      width: 90%;
-    }
-    .btnCreate{
-      width: 100%;
-      margin-top: 10px;
-    }
+  form {
+    flex-wrap: wrap;
   }
+
+  .mainCard {
+    width: 50vw;
+  }
+
+  .inputForm {
+    border: 1px solid #eee;
+    outline: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .btnCreate {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .cardsList {
+    width: 100%;
+  }
+
+  .icon_card {
+    margin-left: 0;
+  }
+
+}
