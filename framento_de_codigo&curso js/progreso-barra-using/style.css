@@ -46,12 +46,13 @@ button{
     background-color: #c1fdbdd7;
     margin-top: 20px;
 
+    &:hover{
+        background: #067900;
+        color: #fcfcfc;
+    }
 }
 
-button:hover{
-    background: #067900;
-    color: #fcfcfc;
-}
+
 /* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
     .contenedor {
