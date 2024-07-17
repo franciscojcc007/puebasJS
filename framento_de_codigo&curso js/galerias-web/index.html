@@ -1,49 +1,41 @@
 <!doctype html>
 <html lang="es">
-     <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <title>Proyecto Guiado II</title>
-          <link href="./estilo.css" rel="stylesheet">
-     </head>
-     <body>
-     <section class="gallery min-vh-100">
-          <h1 class="titulo">Galeria Mista</h1>
-          <div class="container-lg">
-               <div class="">
-                    <div class="">
-                         <img src="img/img1.jpeg" alt="gallery" class="gallery-item">
-                    </div>
-                    <div class="">
-                         <img src="img/img2.jpeg" alt="gallery" class="gallery-item">
-                    </div>
-                    <div class="">
-                         <img src="img/img7.jpeg" alt="gallery" class="gallery-item">
-                    </div>
-                    <div class="">
-                         <img src="img/img4.jpeg" alt="gallery" class="gallery-item">
-                    </div>
-                    <div class="">
-                         <img src="img/img6.jpeg" alt="gallery" class="gallery-item">
-                    </div>
-                    <div class="">
-                         <img src="img/img5.jpeg" alt="gallery" class="gallery-item">
-                    </div>
-               </div>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Proyecto Guiado II</title>
+     <link href="./estilo.css" rel="stylesheet">
+</head>
+<body>
+<section class="gallery">
+     <h1 class="titulo">Galeria Mista</h1>
+     <div class="container">
+          <div class="card">
+               <img src="img/img1.jpeg" alt="gallery" class="gallery-item">
           </div>
-     </section>
-     <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-               <div class="modal-content">
-                    <div class="modal-header">
-                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-               <div class="modal-body">
-                    <img src="img/img1.jpeg" class="modal-img" alt="modal img">
-               </div>
-               </div>
+          <div class="card">
+               <img src="img/img2.jpeg" alt="gallery" class="gallery-item">
+          </div>
+          <div class="card">
+               <img src="img/img7.jpeg" alt="gallery" class="gallery-item">
+          </div>
+          <div class="card">
+               <img src="img/img4.jpeg" alt="gallery" class="gallery-item">
+          </div>
+          <div class="card">
+               <img src="img/img6.jpeg" alt="gallery" class="gallery-item">
+          </div>
+          <div class="card">
+               <img src="img/img5.jpeg" alt="gallery" class="gallery-item">
           </div>
      </div>
-          <script src="archivos-js/estrutura.js"></script>
-     </body>
+</section>
+<div class="modal" id="gallery-modal">
+     <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <img src="" class="modal-img" alt="modal img">
+     </div>
+</div>
+<script src="./estrutura.js"></script>
+</body>
 </html>
