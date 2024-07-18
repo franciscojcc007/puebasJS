@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>CRUD API</h1>
+  <section class="crud">
+    <article>
+      <h2 class="crud-title">agregar fisiculturista</h2>
+      <form class="crud-form">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <br>
+        <input type="text" name="pais" placeholder="Pais" required>
+        <br>
+        <input type="text" name="categoria" placeholder="Categoria" required>
+        <br>
+        <input type="text" name="peso" placeholder="Peso" required>
+        <br>
+        <input type="text" name="altura" placeholder="Altura" required>
+        <br>
+        <input type="text" name="campeonato" placeholder="Campeonato" required>
+        <br>
+        <input type="number" name="anios ganados" placeholder="Años ganados" required>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="hidden" name="id">
+      </form>
+    </article>
+    <article>
+      <h2>Ver fisiculturista</h2>
+      <table class="crud-table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Pais</th>
+            <th>Categoria</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Campeonato</th>
+            <th>Años ganados</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </article>
+  </section>
+  <templace id="crud-template">
+    <tr>
+      <td class="nombre"></td>
+      <td class="pais"></td>
+      <td class="categoria"></td>
+      <td class="peso"></td>
+      <td class="altura"></td>
+      <td class="campeonato"></td>
+      <td class="anios"></td>
+      <td>
+        <button class="edit">Editar</button>
+        <button class="delete">Eliminar</button>
+      </td>
+    </tr>
+  </templace>
+  <script src="./index.js"></script>
+</body>
+</html>
