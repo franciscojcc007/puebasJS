@@ -3,104 +3,104 @@
     {
       "id": 1,
       "nombre": "Arnold Schwarzenegger",
-      "país": "Austria",
-      "categoría": "Open",
+      "pais": "Austria",
+      "categoria": "Open",
       "peso": "235 lbs (107 kg)",
       "altura": "6'2\" (188 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1970-1975, 1980"
+      "anios": "1970-1975, 1980"
     },
     {
       "id": 2,
       "nombre": "Ronnie Coleman",
-      "país": "Estados Unidos",
-      "categoría": "Open",
+      "pais": "Estados Unidos",
+      "categoria": "Open",
       "peso": "297 lbs (135 kg)",
       "altura": "5'11\" (180 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1998-2005"
+      "anios": "1998-2005"
     },
     {
       "id": 3,
       "nombre": "Jay Cutler",
-      "país": "Estados Unidos",
-      "categoría": "Open",
+      "pais": "Estados Unidos",
+      "categoria": "Open",
       "peso": "260 lbs (118 kg)",
       "altura": "5'9\" (175 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "2006, 2007, 2009, 2010"
+      "anios": "2006, 2007, 2009, 2010"
     },
     {
       "id": 4,
       "nombre": "Phil Heath",
-      "país": "Estados Unidos",
-      "categoría": "Open",
+      "pais": "Estados Unidos",
+      "categoria": "Open",
       "peso": "240 lbs (109 kg)",
       "altura": "5'9\" (175 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "2011-2017"
+      "anios": "2011-2017"
     },
     {
       "id": 5,
       "nombre": "Dorian Yates",
-      "país": "Reino Unido",
-      "categoría": "Open",
+      "pais": "Reino Unido",
+      "categoria": "Open",
       "peso": "265 lbs (120 kg)",
       "altura": "5'10\" (178 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1992-1997"
+      "anios": "1992-1997"
     }
   ],
   "fisiculturista_clasico": [
     {
       "id": 6,
       "nombre": "Frank Zane",
-      "país": "Estados Unidos",
-      "categoría": "Clásico",
+      "pais": "Estados Unidos",
+      "categoria": "Clásico",
       "peso": "185 lbs (84 kg)",
       "altura": "5'9\" (175 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1977-1979"
+      "anios": "1977-1979"
     },
     {
       "id": 7,
       "nombre": "Sergio Oliva",
-      "país": "Cuba",
-      "categoría": "Clásico",
+      "pais": "Cuba",
+      "categoria": "Clásico",
       "peso": "225 lbs (102 kg)",
       "altura": "5'10\" (178 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1967-1969"
+      "anios": "1967-1969"
     },
     {
       "id": 8,
       "nombre": "Lee Haney",
-      "país": "Estados Unidos",
-      "categoría": "Clásico",
+      "pais": "Estados Unidos",
+      "categoria": "Clásico",
       "peso": "245 lbs (111 kg)",
       "altura": "5'11\" (180 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1984-1991"
+      "anios": "1984-1991"
     },
     {
       "id": 9,
       "nombre": "Chris Dickerson",
-      "país": "Estados Unidos",
-      "categoría": "Clásico",
+      "pais": "Estados Unidos",
+      "categoria": "Clásico",
       "peso": "190 lbs (86 kg)",
       "altura": "5'6\" (168 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1982"
+      "anios": "1982"
     },
     {
       "id": 10,
       "nombre": "Franco Columbu",
-      "país": "Italia",
-      "categoría": "Clásico",
+      "pais": "Italia",
+      "categoria": "Clásico",
       "peso": "185 lbs (84 kg)",
       "altura": "5'5\" (165 cm)",
       "campeonato": "Mr. Olympia",
-      "año ganados": "1976, 1981"
+      "anios": "1976, 1981"
     }
   ]
 }
