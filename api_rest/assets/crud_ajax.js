@@ -20,7 +20,7 @@ const d = document,
             error(`Error ${xhr.status}: ${message}`);
           }
         });
-
+        
         xhr.open(method || "GET", url);
         xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
         xhr.send(JSON.stringify(data));
@@ -125,9 +125,7 @@ const d = document,
         }
 
         if (e.target.matches(".delete")) {
-          let isDelete = confirm(
-            `¿Estás seguro de eliminar el id ${e.target.dataset.id}?`
-          );
+          let isDelete = confirm(`¿Estás seguro de eliminar el id ${e.target.dataset.id}?`);
 
           if (isDelete) {
             //Delete - DELETE
