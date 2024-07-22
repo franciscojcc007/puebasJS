@@ -1,0 +1,14 @@
+.eventos-flujo div{
+  padding: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.uno{
+  background-color: rgb(247, 168, 51);
+}
+.dos{
+  background-color: rgb(254, 255, 170);
+}
+.tres{
+  background-color: rgb(238, 237, 209);
+}
