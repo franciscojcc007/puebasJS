@@ -255,21 +255,19 @@
 // console.log(expReg2.exec(cadena));
 /************ Uso de expresiones regulares ⬆️ ************/
 
-//   (function () {
-//     console.log("Mi primera IIFE");
+  (function (c) {
+    c.log("Mi primera IIFE");
 
-//   })();
+  })(console);
 
-// (function (d, w, c) {
-//   console.log("Mi segunda IIFE");
-//   console.log(d);
-//   console.log(w);
-//   c.log('es un console.log')
+(function (d, w, c) {
+  c.log("Mi segunda IIFE");
+  c.log(d);
+  c.log(w);
+  c.log('es un console.log')
 
-// })(document, window, console);
+})(document, window, console);
 
-// import { pi } from "./cont.js"
-// console.log(pi);
 /*********  Función Anónima Autoejecutable ⬆️**********/
 
 
