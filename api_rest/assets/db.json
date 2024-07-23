@@ -1,54 +1,54 @@
 {
   "fisiculturista_open": [
     {
-      "id": 1,
       "nombre": "Arnold Schwarzenegger",
       "pais": "Austria",
       "categoria": "Open",
       "peso": "235 lbs (107 kg)",
-      "altura": "6'2\" (188 cm)",
+      "altura": "6'2 (188 cm)",
       "campeonato": "Mr. Olympia",
-      "anios": "1970-1975, 1980"
+      "anios": "1970-1975, 1980",
+      "id": 1
     },
     {
-      "id": 2,
       "nombre": "Ronnie Coleman",
       "pais": "Estados Unidos",
       "categoria": "Open",
       "peso": "297 lbs (135 kg)",
-      "altura": "5'11\" (180 cm)",
+      "altura": "5'11 (180 cm)",
       "campeonato": "Mr. Olympia",
-      "anios": "1998-2005"
+      "anios": "1998-2005",
+      "id": 2
     },
     {
-      "id": 3,
       "nombre": "Jay Cutler",
       "pais": "Estados Unidos",
       "categoria": "Open",
       "peso": "260 lbs (118 kg)",
-      "altura": "5'9\" (175 cm)",
+      "altura": "5'9 (175 cm)",
       "campeonato": "Mr. Olympia",
-      "anios": "2006, 2007, 2009, 2010"
+      "anios": "2006, 2007, 2009, 2010",
+      "id": 3
     },
     {
-      "id": 4,
       "nombre": "Phil Heath",
       "pais": "Estados Unidos",
       "categoria": "Open",
       "peso": "240 lbs (109 kg)",
-      "altura": "5'9\" (175 cm)",
+      "altura": "5'9 (175 cm)",
       "campeonato": "Mr. Olympia",
-      "anios": "2011-2017"
+      "anios": "2011-2017",
+      "id": 4
     },
     {
-      "id": 5,
       "nombre": "Dorian Yates",
       "pais": "Reino Unido",
       "categoria": "Open",
       "peso": "265 lbs (120 kg)",
-      "altura": "5'10\" (178 cm)",
+      "altura": "5'10 (178 cm)",
       "campeonato": "Mr. Olympia",
-      "anios": "1992-1997"
+      "anios": "1992-1997",
+      "id": 5
     }
   ],
   "fisiculturista_clasico": [
