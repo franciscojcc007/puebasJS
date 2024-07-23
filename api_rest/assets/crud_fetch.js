@@ -7,18 +7,30 @@ const d = document,
 
       const getAll = async () => {
         try {
-          let res = await fetch("http://localhost:5555/santos"),
+          let res = await fetch("http://localhost:3000/fisiculturista_open"),
             json = await res.json();
 
           if (!res.ok) throw { status: res.status, statusText: res.statusText };
 
           console.log(json);
           json.forEach((el) => {
-            $template.querySelector(".name").textContent = el.nombre;
-            $template.querySelector(".constellation").textContent = el.constelacion;
+            $template.querySelector(".nombre").textContent = el.nombre;
+            $template.querySelector(".pais").textContent = el.pais;
+            $template.querySelector(".categoria").textContent = el.categoria;
+            $template.querySelector(".peso").textContent = el.peso;
+            $template.querySelector(".altura").textContent = el.altura;
+            $template.querySelector(".campeonato").textContent = el.campeonato;
+            $template.querySelector(".anios").textContent = el.anios;
+
             $template.querySelector(".edit").dataset.id = el.id;
-            $template.querySelector(".edit").dataset.name = el.nombre;
-            $template.querySelector(".edit").dataset.constellation = sel.constelacion;
+            $template.querySelector(".edit").dataset.nombre = el.nombre;
+            $template.querySelector(".edit").dataset.pais = el.pais;
+            $template.querySelector(".edit").dataset.categoria = el.categoria;
+            $template.querySelector(".edit").dataset.peso = el.peso;
+            $template.querySelector(".edit").dataset.altura = el.altura;
+            $template.querySelector(".edit").dataset.campeonato = el.campeonato;
+            $template.querySelector(".edit").dataset.anios = el.anios;
+
             $template.querySelector(".delete").dataset.id = el.id;
 
             let $clone = d.importNode($template, true);
@@ -51,10 +63,15 @@ const d = document,
                   },
                   body: JSON.stringify({
                     nombre: e.target.nombre.value,
-                    constelacion: e.target.constelacion.value,
+                    pais: e.target.pais.value,
+                    categoria: e.target.categoria.value,
+                    peso: e.target.peso.value,
+                    altura: e.target.altura.value,
+                    campeonato: e.target.campeonato.value,
+                    anios: e.target.anios.value,
                   }),
                 },
-                res = await fetch("http://localhost:5555/santos", options),
+                res = await fetch("http://localhost:3000/fisiculturista_open", options),
                 json = await res.json();
 
               if (!res.ok)
@@ -78,11 +95,16 @@ const d = document,
                   },
                   body: JSON.stringify({
                     nombre: e.target.nombre.value,
-                    constelacion: e.target.constelacion.value,
+                    pais: e.target.pais.value,
+                    categoria: e.target.categoria.value,
+                    peso: e.target.peso.value,
+                    altura: e.target.altura.value,
+                    campeonato: e.target.campeonato.value,
+                    anios: e.target.anios.value,
                   }),
                 },
                 res = await fetch(
-                  `http://localhost:5555/santos/${e.target.id.value}`,
+                  `http://localhost:3000/fisiculturista_open/${e.target.id.value}`,
                   options
                 ),
                 json = await res.json();
@@ -104,9 +126,14 @@ const d = document,
 
       d.addEventListener("click", async (e) => {
         if (e.target.matches(".edit")) {
-          $title.textContent = "Editar Santo";
-          $form.nombre.value = e.target.dataset.name;
-          $form.constelacion.value = e.target.dataset.constellation;
+          $title.textContent = "Editar fisiculturista";
+          $form.nombre.value = e.target.dataset.nombre;
+          $form.pais.value = e.target.dataset.pais;
+          $form.categoria.value = e.target.dataset.categoria;
+          $form.peso.value = e.target.dataset.peso;
+          $form.altura.value = e.target.dataset.altura;
+          $form.campeonato.value = e.target.dataset.campeonato;
+          $form.anios.value = e.target.dataset.anios;
           $form.id.value = e.target.dataset.id;
         }
 
@@ -125,7 +152,7 @@ const d = document,
                   },
                 },
                 res = await fetch(
-                  `http://localhost:5555/santos/${e.target.dataset.id}`,
+                  `http://localhost:3000/fisiculturista_open/${e.target.dataset.id}`,
                   options
                 ),
                 json = await res.json();
