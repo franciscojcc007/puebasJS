@@ -43,7 +43,7 @@
 
       console.log(res, json);
 
-      //if (!res.ok) throw new Error("Ocurrio un Error al solicitar los Datos");
+      //if (!res.ok) throw new Error("Ocurrió un Error al solicitar los Datos");
       if (!res.ok) throw { status: res.status, statusText: res.statusText };
 
       json.forEach((el) => {
