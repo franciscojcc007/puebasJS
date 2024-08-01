@@ -7,7 +7,7 @@ const cadenaInvertida = (cadena="")=>{
 cadenaInvertida("Hola mundo")
 
 
-//escribe areves
+//escribe alreves
 let letra = "pato";
 let palabras = "";
 

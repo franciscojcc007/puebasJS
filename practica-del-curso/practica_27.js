@@ -56,7 +56,7 @@ class pelicula {
   }
 
   validarCadena(propiedad, valor) {
-    if (!valor) return console.warn(`${propiedad} "${valor}" esta vacio`);
+    if (!valor) return console.warn(`${propiedad} "${valor}" esta vació`);
     if (typeof valor !== "string")
       return console.error(
         `${propiedad} ${valor} ingresado, No es una cadena de texto`
@@ -70,13 +70,13 @@ class pelicula {
       );
   }
   validarNumero(propiedad, valor) {
-    if (!valor) return console.warn(`${propiedad} "${valor}" esta vacio`);
+    if (!valor) return console.warn(`${propiedad} "${valor}" esta vació`);
     if (typeof valor !== "number")
       return console.error(`${propiedad} ${valor} ingresado, No es un numero`);
     return true;
   }
   validarArreglo(propiedad, valor) {
-    if (!valor) return console.warn(`${propiedad} "${valor}" esta vacio`);
+    if (!valor) return console.warn(`${propiedad} "${valor}" esta vació`);
     if (!(valor instanceof Array))
       return console.error(`${propiedad}"${valor}"ingresado, No es un arreglo`);
     if (valor.length === 0)
@@ -107,7 +107,7 @@ class pelicula {
       this.validarCadena("Director", director, 50);
   }
   validadExtreno(estreno) {
-    if (this.validarNumero("Año de Estrono", estreno))
+    if (this.validarNumero("Año de Entrono", estreno))
       if (!/^([0-9]){4}$/.test(estreno))
         return console.error(
           `Año de estreno "${estreno}" no es valido, debe ser un numero de 4 digitos`
@@ -117,7 +117,7 @@ class pelicula {
     this.validarArreglo("Pais", pais);
   }
   validarGenero(generos) {
-    if (this.validarArreglo("Generos", generos)) {
+    if (this.validarArreglo("Géneros", generos)) {
       for (let genero of generos) {
         //console.log(genero,pelicula.listaGeneros.includes(genero))
         if (!pelicula.listaGeneros.includes(genero)) {
@@ -128,9 +128,9 @@ class pelicula {
     }
   }
   validarCalificacion(calificacion) {
-    if (this.validarNumero("Calificacion",calificacion))
+    if (this.validarNumero("Calificación",calificacion))
       return(calificacion < 0 || calificacion > 10)
-        ? console.error(`Calificacion "${calificacion}" no es valida, debe ser un numero entre 0 y 10`)
+        ? console.error(`Calificación "${calificacion}" no es valida, debe ser un numero entre 0 y 10`)
         : this.calificacion = calificacion.toFixed(1);
     }
 

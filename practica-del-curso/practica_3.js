@@ -8,7 +8,7 @@ const cadenaAArreglo = (cadena = "", separador = undefined) =>
   (!cadena)
     ? console.warn("No ingresaste una cadena de texto")
     :(separador === undefined)
-      ? console.warn("no ingresaste el caracter separador")
+      ? console.warn("no ingresaste el carácter separador")
       : console.info(cadena.split(separador));
 
 cadenaAArreglo("Hola Mundo", " ");

@@ -10,4 +10,4 @@ const validadNombre = (nombre="")=>{
 
 }
 
-validadNombre("Francisco Javier concepcion")
+validadNombre("Francisco Javier concepción")
