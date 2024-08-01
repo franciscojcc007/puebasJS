@@ -1,5 +1,5 @@
 // function mostrar() {
-//   console.log("mexico");
+//   console.log("México");
 //   return mario = 25;
 // }
 // let recibe = mostrar();
@@ -45,17 +45,17 @@
 // const persona = {
 //   id: 1,
 //   edad: 33,
-//   nonbre: "juan",
+//   nombre: "juan",
 //   soltero: false,
 //   saludar: function () {
-//     console.log(`hola soy ${this.nonbre} y tengo ${this.edad} y soy ${this.soltero}`)
+//     console.log(`hola soy ${this.nombre} y tengo ${this.edad} y soy ${this.soltero}`)
 //   }
 // }
 
 // console.log(persona);
 // console.log(persona.edad);
 // persona.saludar();
-/**********uso de objecto ⬆️***********/
+/******************uso de objecto ⬆️**************************/
 
 // let edad = 12;
 
@@ -64,7 +64,7 @@
 // } else {
 //   console.log(`tiene ${edad} por lo tanto eres menor`)
 // }
-/*******uso de condiconales ⬆️*******/
+/*********************uso de condicionales ⬆️*********************/
 
 // let dia = 2;
 
@@ -82,7 +82,7 @@
 //     console.log("mierdad");
 //     break
 // }
-/*******uso de switch ⬆️*******/
+/*******************8****uso de switch ⬆️************************/
 
 
 // try {
@@ -95,7 +95,7 @@
 // } catch (error) {
 //   console.log(error);
 // }
-/*******uso de try catch ⬆️*******/
+/***********************uso de try catch ⬆️***************************/
 
 
 // function sumar(a, b, ...c) {
@@ -108,7 +108,7 @@
 // }
 // console.log(sumar(1, 2, 5, 88))
 
-/******* Uso de Parámetros Rest para la Suma de Números ⬆️*******/
+/************** Uso de Parámetros Rest para la Suma de Números ⬆️************/
 
 
 // const arr1 = [1, 2, 3];
@@ -211,7 +211,7 @@
 // console.log('Un registro de 10 que ha pasado en nuestra aplicación');
 // console.clear();
 
-/******* uso console ⬆️*******/
+/************************* uso console ⬆️***************************/
 
 
 
@@ -268,6 +268,6 @@
 
 })(document, window, console);
 
-/*********  Función Anónima Autoejecutable ⬆️**********/
+/*********************  Función Anónima Autoejecutable ⬆️******************/
 
 

@@ -1,11 +1,11 @@
 let teporizador1 = setTimeout(()=>{
-  console.log("ejecucin de setTimeut")
+  console.log("ejecución de setTimeut")
 },1000)
 
 clearTimeout(teporizador1);
 
 let teporizador2 = setInterval(()=>{
-  console.log("ejecucin de setInterval")
+  console.log("ejecución de setInterval")
 },4000)
 
 clearInterval(teporizador2);
@@ -14,9 +14,9 @@ setInterval(()=>{
   console.log(new Date().toLocaleTimeString())
 },5000)
 
-/*  Codigo Sincrono Bloqueante */
+/*  Código Sincrono Bloqueante */
 (() => {
-  console.log("Codigo sincrono");
+  console.log("Código Sincrono");
   console.log("Inicio");
 
   function dos() {
@@ -31,10 +31,10 @@ setInterval(()=>{
   console.log("Fin");
 })();
 
-/*  Codigo Asincrono no Bloqueante */
+/*  Código Asíncrono no Bloqueante */
 
 (() => {
-  console.log("Codigo asincrono");
+  console.log("Código asíncrono");
   console.log("Inicio");
 
   function dos() {
